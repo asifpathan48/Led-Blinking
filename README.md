@@ -21,6 +21,8 @@ Control an LED connected to Arduino Uno using a Bluetooth sensor and the Arduino
 3. Pair Bluetooth sensor with Arduino Bluetooth Control application.
 4. Use the application to send commands to turn the LED on/off.
 
+[Watch Demo Video](https://youtube.com/shorts/VjrRXPl51Rc?feature=share)
+
 ## Note
 Ensure correct wiring and Bluetooth pairing for seamless operation.
 
