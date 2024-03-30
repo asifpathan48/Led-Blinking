@@ -2,6 +2,8 @@
 
 Control an LED connected to Arduino Uno using a Bluetooth sensor and the Arduino Bluetooth Control application. The Bluetooth sensor is connected to the Arduino Uno, enabling wireless control via the application. The LED is connected to pin 11 of the Arduino for easy control and visualization of commands.
 
+![Project](https://github.com/asifpathan48/Led-Blinking-Using-Arduino-Bluetooth-Control-App/blob/main/project.jpg)
+
 ## Components
 - Arduino Uno
 - Bluetooth sensor
