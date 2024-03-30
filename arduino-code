@@ -1,0 +1,32 @@
+char x;
+int led = 11;
+
+void setup() {
+Serial.begin(9600);
+}
+
+void loop() {
+if(Serial.available()){
+  x=Serial.read();
+  Serial.println(x);
+}
+
+if(x=='1'){
+  digitalWrite(led,HIGH);
+}
+
+if(x=='2'){
+  digitalWrite(led,LOW);
+}
+
+if(x=='3'){
+  digitalWrite(led,80);
+}
+
+if(x=='4'){
+  digitalWrite(led,HIGH);
+  delay(100);
+  digitalWrite(led,LOW);
+  delay(100);
+}
+}
